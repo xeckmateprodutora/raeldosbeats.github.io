@@ -16,8 +16,8 @@ let allMusic = [
     image: "tribo-7",
     src: "Gratidão",
     genero: "Rap Brasília",
-    bpm: "60",
-    tom: "Fm",
+    bpm: "68",
+    tom: "Bm",
     url: "https://mpago.la/1PDiEc5"
   },
   {
@@ -26,8 +26,8 @@ let allMusic = [
     image: "pacificadores-3",
     src: "Liberdade",
     genero: "Rap Brasília",
-    bpm: "68",
-    tom: "F#m",
+    bpm: "64",
+    tom: "C#m",
     url: "https://mpago.la/1T5eFvm"
   },
 
