@@ -14,37 +14,43 @@ let allMusic = [
     name: "Harley Bird - Home",
     artist: "Jordan Schor",
     img: "music-1",
-    src: "music-1"
+    src: "music-1",
+    url: "https://youtube.com/1"
   },
   {
     name: "Ikson Anywhere – Ikson",
     artist: "Audio Library",
     img: "music-2",
-    src: "music-2"
+    src: "music-2",
+    url: "https://youtube.com/2"
   },
   {
     name: "Beauz & Jvna - Crazy",
     artist: "Beauz & Jvna",
     img: "music-3",
-    src: "music-3"
+    src: "music-3",
+    url: "https://youtube.com/3"
   },
   {
     name: "Hardwind - Want Me",
     artist: "Mike Archangelo",
     img: "music-4",
-    src: "music-4"
+    src: "music-4",
+    url: "https://youtube.com/4"
   },
   {
     name: "Jim - Sun Goes Down",
     artist: "Jim Yosef x Roy",
     img: "music-5",
-    src: "music-5"
+    src: "music-5",
+    url: "https://youtube.com/5"
   },
   {
     name: "Lost Sky - Vision NCS",
     artist: "NCS Release",
     img: "music-6",
-    src: "music-6"
+    src: "music-6",
+    url: "https://youtube.com/6"
   },
   // like this paste it and remember to give comma after ending of this bracket }
   // {
