@@ -25,7 +25,7 @@ window.addEventListener("load", () => {
 function loadMusic(indexNumb) {
   musicName.innerText = allMusic[indexNumb - 1].name;
   musicArtist.innerText = allMusic[indexNumb - 1].artist;
-  musicGenero.innerText = `Gênero: ${allMusic[indexNumb - 1].genero}`;
+  musicGenero.innerText = `Gênero: ${allMusic[indexNumb - 1].genero} | BPM: ${allMusic[indexNumb - 1].bpm} | Tom: ${allMusic[indexNumb - 1].tom}`;
   musicImg.src = `images/${allMusic[indexNumb - 1].image}.jpg`;
   mainAudio.src = `songs/${allMusic[indexNumb - 1].src}.mp3`;
   buyBeat.href = allMusic[indexNumb - 1].url;
