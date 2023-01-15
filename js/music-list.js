@@ -13,14 +13,14 @@ let allMusic = [
   {
     name: "Gratidão",
     artist: "Rael dos Beats",
-    img: "hungria-2",
+    image: "tribo-7",
     src: "Gratidão",
     url: "https://youtube.com/1"
   },
   {
     name: "Liberdade",
     artist: "Rael dos Beats",
-    img: "hungria-2",
+    image: "pacificadores-3",
     src: "Liberdade",
     url: "https://youtube.com/2"
   },
