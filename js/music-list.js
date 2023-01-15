@@ -18,7 +18,7 @@ let allMusic = [
     genero: "Rap Brasília",
     bpm: "60",
     tom: "Fm",
-    url: "https://youtube.com/1"
+    url: "https://mpago.la/1PDiEc5"
   },
   {
     name: "Liberdade",
@@ -28,7 +28,7 @@ let allMusic = [
     genero: "Rap Brasília",
     bpm: "68",
     tom: "F#m",
-    url: "https://youtube.com/2"
+    url: "https://mpago.la/1T5eFvm"
   },
 
 ];
