@@ -2,6 +2,7 @@ const wrapper = document.querySelector(".wrapper"),
   musicImg = wrapper.querySelector(".img-area img"),
   musicName = wrapper.querySelector(".song-details .name"),
   musicArtist = wrapper.querySelector(".song-details .artist"),
+  musicGenero = wrapper.querySelector(".song-details .genero"),
   playPauseBtn = wrapper.querySelector(".play-pause"),
   prevBtn = wrapper.querySelector("#prev"),
   nextBtn = wrapper.querySelector("#next"),
@@ -24,6 +25,7 @@ window.addEventListener("load", () => {
 function loadMusic(indexNumb) {
   musicName.innerText = allMusic[indexNumb - 1].name;
   musicArtist.innerText = allMusic[indexNumb - 1].artist;
+  musicGenero.innerText = `Gênero: ${allMusic[indexNumb - 1].genero}`;
   musicImg.src = `images/${allMusic[indexNumb - 1].image}.jpg`;
   mainAudio.src = `songs/${allMusic[indexNumb - 1].src}.mp3`;
   buyBeat.href = allMusic[indexNumb - 1].url;
@@ -184,6 +186,11 @@ for (let i = 0; i < allMusic.length; i++) {
                 <div class="row">
                   <span>${allMusic[i].name}</span>
                   <p>${allMusic[i].artist}</p>
+                  <p style='font-size: 12px'>
+                    Gênero: ${allMusic[i].genero} | 
+                    BPM: ${allMusic[i].bpm} | 
+                    Tom: ${allMusic[i].tom}
+                  </p>
                 </div>
                 <span id="${allMusic[i].src}" class="audio-duration">3:40</span>
                 <audio class="${allMusic[i].src}" src="songs/${allMusic[i].src}.mp3"></audio>

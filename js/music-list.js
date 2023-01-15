@@ -15,6 +15,9 @@ let allMusic = [
     artist: "Rael dos Beats",
     image: "tribo-7",
     src: "Gratidão",
+    genero: "Rap Brasília",
+    bpm: "60",
+    tom: "Fm",
     url: "https://youtube.com/1"
   },
   {
@@ -22,6 +25,9 @@ let allMusic = [
     artist: "Rael dos Beats",
     image: "pacificadores-3",
     src: "Liberdade",
+    genero: "Rap Brasília",
+    bpm: "68",
+    tom: "F#m",
     url: "https://youtube.com/2"
   },
 

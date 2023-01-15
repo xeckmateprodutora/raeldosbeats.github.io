@@ -83,6 +83,11 @@ body{
   opacity: 0.9;
   line-height: 35px;
 }
+.song-details .genero{
+  font-size: 13px;
+  opacity: 0.9;
+  line-height: 15px;
+}
 .progress-area{
   height: 6px;
   width: 100%;
