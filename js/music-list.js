@@ -40,6 +40,16 @@ let allMusic = [
     tom: "Dm",
     url: "https://mpago.la/2wnHaNu"
   },
+  {
+    name: "Posturado",
+    artist: "Rael dos Beats",
+    image: "trap-1",
+    src: "Posturado",
+    genero: "Trap",
+    bpm: "56",
+    tom: "D#m",
+    url: "https://mpago.la/2wj3drA"
+  },
 
 
 ];
