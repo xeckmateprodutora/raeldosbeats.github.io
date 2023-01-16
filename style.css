@@ -25,6 +25,11 @@ body{
   min-height: 100vh;
   background: linear-gradient(var(--pink) 0%, var(--violet) 100%);
 }
+
+.anuncio-google-1{
+  display: none;
+}
+
 .wrapper{
   width: 380px;
   padding: 25px 30px;
