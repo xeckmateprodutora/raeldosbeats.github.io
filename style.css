@@ -27,7 +27,7 @@ body{
 }
 
 .anuncio-google-1{
-  display: none;
+  display: block;
 }
 
 .wrapper{
