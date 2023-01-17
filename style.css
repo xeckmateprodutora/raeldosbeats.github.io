@@ -68,15 +68,29 @@ body{
   align-items: center;
   text-decoration: none;
   background-color: #04D47C;
-  padding: 5px 15px;
-  border-radius: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
   color: #fff;
+  transition: all 0.3s ease 0s;
   
+}
+
+.top-bar a:hover{
+  background-color: #2EE59D; 
+  box-shadow: 0px 15px 15px rgba(46, 229, 157, 0.4);
+  color: #fff;
 }
 
 .top-bar i{
   color: #fff;
   font-size: 20px;
+}
+
+.top-bar #i-logo{
+  color: #181818;
+  font-size: 25px;
+  margin-left: 1px;
+  
 }
 
 .img-area{
