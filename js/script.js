@@ -183,11 +183,11 @@ const ulTag = wrapper.querySelector("ul");
 for (let i = 0; i < allMusic.length; i++) {
   //let's pass the song name, artist from the array
   let liTag = `<li li-index="${i + 1}">
-                <div class="row">
+                <img class='img-list' src="images/${allMusic[i].image}.jpg"> 
+                <div class="row">                              
                   <span>${allMusic[i].name}</span>
-                  <p>${allMusic[i].artist}</p>
                   <p style='font-size: 12px'>
-                    Gênero: ${allMusic[i].genero} | 
+                    Gênero: ${allMusic[i].genero}<br> 
                     BPM: ${allMusic[i].bpm} | 
                     Tom: ${allMusic[i].tom}
                   </p>
@@ -227,7 +227,7 @@ function playingSong() {
     //if the li tag index is equal to the musicIndex then add playing class in it
     if (allLiTag[j].getAttribute("li-index") == musicIndex) {
       allLiTag[j].classList.add("playing");
-      audioTag.innerText = "Ouvindo";
+      audioTag.innerHTML = "<img class='spectrum-music' src='images/spectrum.gif'>";
     }
 
     allLiTag[j].setAttribute("onclick", "clicked(this)");
