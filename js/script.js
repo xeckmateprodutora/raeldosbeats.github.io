@@ -14,7 +14,8 @@ const wrapper = document.querySelector(".wrapper"),
   closemoreMusic = musicList.querySelector("#close"),
   buyBeat = wrapper.querySelector("#buy");
 
-let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
+// let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
+let musicIndex = 1
 isMusicPaused = true;
 
 window.addEventListener("load", () => {
